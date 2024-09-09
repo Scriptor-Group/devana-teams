@@ -19,7 +19,7 @@ export class TeamsBot extends TeamsActivityHandler {
   private conversationState: ConversationState;
   private values: any;
   private isProcessing: Map<string, boolean>;
-  private readonly API_URL = `https://api.devana.ai`;
+  private readonly API_URL = `https://api.devana.ai/`;
 
   constructor() {
     super();
